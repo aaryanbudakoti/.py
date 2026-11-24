@@ -1,6 +1,6 @@
 #  BASICS
 
-
+import math
 import sys
 # # 1
 # print("Hello World")
@@ -87,6 +87,7 @@ import sys
 # a=33
 # b=2212
 # c=3
+
 # if a >b :
 #     if a>c :
 #         print("a")
@@ -97,3 +98,31 @@ import sys
 #         print("b")
 #     else:
 #         print("c")
+
+
+# 4
+a=1
+b=-4
+c=5
+
+if b**2 - 4*a*c > 0:
+    print("real roots")
+elif b**2 - 4*a*c <0 :
+    print("complex") 
+
+# 5
+
+year = int(input("Enter a year: "))
+
+if year % 400 == 0:
+    print("Leap Year")
+
+elif year % 100 == 0:
+    print("Not a Leap Year")
+
+elif year % 4 == 0:
+    print("Leap Year")
+
+else:
+    print("Not a Leap Year")
+
